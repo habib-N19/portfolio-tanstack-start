@@ -3,7 +3,7 @@
   "mode": "file-router",
   "typescript": true,
   "tailwind": true,
-  "packageManager": "pnpm",
+  "packageManager": "bun",
   "addOnOptions": {
     "drizzle": {
       "database": "postgresql"
@@ -15,7 +15,6 @@
   "chosenAddOns": [
     "biome",
     "start",
-    "strapi",
     "db",
     "drizzle",
     "form",
